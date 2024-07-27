@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://web.cbr.ru/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetCursOnDate>
+         <web:On_date>{0}</web:On_date>
+      </web:GetCursOnDate>
+   </soapenv:Body>
+</soapenv:Envelope>
